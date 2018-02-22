@@ -1,0 +1,446 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <meta name="theme-color" content="#424242">
+</head>
+
+<body class="animated fadeIn">
+    <style type="text/css">
+    body {
+        font-family: Montserrat;
+        color: grey;
+    }
+
+    #nameCard {
+        margin: 0px;
+        border-radius: 0px;
+        padding: 19px 24px 34px 24px;
+        /*background-image: linear-gradient(45deg, #232526, #414345);*/
+    }
+
+    blockquote {
+        margin: 20px 0;
+        padding-left: 1.5rem;
+        border-left: 5px solid #424242;
+        font-size: 18px;
+        background-color: #f5f1f1;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        color: black !important;
+    }
+
+    html {
+        overflow: auto;
+    }
+    /* Scrollbar Styling */
+
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+     ::-webkit-scrollbar-track {
+        background-color: #ebebeb;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        background: #6d6d6d;
+    }
+
+    .exp-card {
+        border-radius: 8px;
+    }
+
+    .collection {
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+    }
+
+    .collection .collection-item {
+        border-bottom: 2px solid #e0e0e0;
+    }
+
+    .card .card-content .card-title {
+        line-height: 24px;
+    }
+
+    .card .card-title {
+        font-size: 21px;
+    }
+
+    .collection.with-header .collection-header {
+        border-bottom: 2px solid #e0e0e0;
+    }
+
+    @media (min-width:1025px) {
+        /* big landscape tablets, laptops, and desktops */
+        #nameCard {
+            padding: 19px 24px 34px 64px;
+        }
+    }
+    </style>
+    <div class="col s12">
+        <div class="card-panel grey darken-3" id="nameCard">
+            <div class="right-align" style="color: #fff">
+                <a href="https://www.linkedin.com/in/adityasanu94/" target="_blank"><i class="fab fa-linkedin" style="font-size: 25px;"></a></i>
+            </div>
+            <span class="white-text" style="font-size: 32px;">
+                Aditya Kumar
+            </span>
+            <br>
+            <span class="white-text" style="font-size: 22px;">
+            	QA Engineer
+            </span>
+            <br>
+            <br>
+            <a href="tel:+919738471025"><span class="white-text"><i class="fas fa-phone fa-flip-horizontal" style="font-size: 14px;"></i>&nbsp;&nbsp;&nbsp;+91 9738471025</span></a>
+            <br>
+            <a href="mailto:aditya.sanu94@gmail.com"><span class="white-text"><i class="fas fa-envelope" style="font-size: 14px;"></i>&nbsp;&nbsp;&nbsp;aditya.sanu94@gmail.com</span></a>
+            <br>
+            <a href="skype:aditya_ait@outlook.com?call"><span class="white-text"><i class="fab fa-skype" style="font-size: 14px;"></i>&nbsp;&nbsp;&nbsp;aditya_ait@outlook.com</span></a>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 18px;">
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-user"></i> &nbsp;&nbsp;PROFILE
+            </blockquote>
+            <p style="clipolor: #6d7072;">To be a part of an organization which provides professional growth with opportunities to use my talent and skills in software testing, leading to organization &amp; personal growth by creating application of my value based convictions, job skills &amp; professional dexterity with teamwork.</p>
+        </div>
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-briefcase"></i> &nbsp;&nbsp;EXPERIENCE
+            </blockquote>
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="card exp-card">
+                        <div class="card-content">
+                            <span class="card-title">QA Engineer</span>
+                            <p><b>Truweight Wellness Pvt Ltd</b>, <em>Bengaluru</em></p>
+                            <p>July 2017 - Present</p>
+                            <br>
+                            <b><code>Skills used: </code></b>
+                            <br>
+                            <code>Manual Testing, Mobile App Testing, API Testing, Database Testing, PG Admin</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l6">
+                    <div class="card exp-card">
+                        <div class="card-content">
+                            <span class="card-title">Software Engineer - QA</span>
+                            <p><b>Lollypop UI/UX Design Studio</b>, <em>Bengaluru</em></p>
+                            <p>May 2017 - July 2017</p>
+                            <br>
+                            <b><code>Skills used: </code></b>
+                            <br>
+                            <code>Manual Testing, Mobile App Testing, Web App Testing</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="card exp-card">
+                        <div class="card-content">
+                            <span class="card-title">Assoc. Software Engineer - QA</span>
+                            <p><b>Snapwiz Edutec India Private Limited</b>, <em>Bengaluru</em></p>
+                            <p>Feb 2016 - April 2017</p>
+                            <br>
+                            <b><code>Skills used: </code></b>
+                            <br>
+                            <code>Manual Testing, Database Testing, Mobile App Testing, Web App Testing, My SQL, Mongo DB</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-graduation-cap"></i> &nbsp;&nbsp;EDUCATION
+            </blockquote>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Board/University</th>
+                        <th>Year of passing</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BE [CSE]</td>
+                        <td>Visvesvaraya Technological University, Karnataka</td>
+                        <td>2015</td>
+                        <td>67.61</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>CBSE/PTJM Sarswati Vidya Mandir School, Jharkhand</td>
+                        <td>2011</td>
+                        <td>74.6</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>CBSE/M.G.M Higher Secondary School, Jharkhand</td>
+                        <td>2009</td>
+                        <td>58.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-wrench fa-flip-horizontal"></i> &nbsp;&nbsp; TECHNICAL SKILLS
+            </blockquote>
+            <ul class="collection">
+                <li class="collection-item"><i class="fas fa-database"></i>&nbsp;&nbsp;&nbsp; <b>Database tools:</b> My SQL Query Browser,RoboMongo, PG Admin</li>
+                <li class="collection-item"><i class="fab fa-codepen"></i>&nbsp;&nbsp;&nbsp;<b>Environment:</b> Client-server, Web-Based</li>
+                <li class="collection-item"><i class="fab fa-windows"></i>&nbsp;&nbsp;&nbsp;<b>OS:</b> Windows 7/8/10, Ubuntu, Mac</li>
+                <li class="collection-item"><i class="fas fa-bug"></i></i>&nbsp;&nbsp;&nbsp;<b>Bug Reporting tools:</b> JIRA, Mantis Bug-tracker</li>
+                <li class="collection-item"><i class="fab fa-git"></i>&nbsp;&nbsp;&nbsp;<b>Collaboration tools:</b> Git bash, Git Lab, Zeplin</li>
+                <li class="collection-item"><i class="fas fa-list-ul"></i>&nbsp;&nbsp;&nbsp;<b>Log Tools:</b> Putty, Kibana</li>
+                <li class="collection-item"><i class="fas fa-check"></i>&nbsp;&nbsp;&nbsp;<b>Management Tools:</b> Asana, Quality Center</li>
+                <li class="collection-item"><i class="fas fa-sticky-note"></i>&nbsp;&nbsp;&nbsp;<b>Communication / Support Ticket Tools (Client):</b> Intercom, Zendesk</li>
+                <li class="collection-item"><i class="fab fa-chrome"></i>&nbsp;&nbsp;&nbsp;<b>Browsers:</b> Mozilla Fire-Fox, Chrome, Safari, IE.</li>
+                <li class="collection-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;&nbsp;<b>Testing:</b> Functional / Integration / System / Regression / Adhoc / Sanity / Smoke / Cross / Patch Testing</li>
+            </ul>
+        </div>
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-certificate"></i> &nbsp;&nbsp;CERTIFICATIONS
+            </blockquote>
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div class="card exp-card">
+                        <div class="card-content">
+                            <span class="card-title">Software Testing Training (Qspider) [6 Months]</span>
+                            <p>Manual Testing/ Quality Center/ Agile Methodologies/ MySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-cogs"></i> &nbsp;&nbsp;SUMMARY SKILL
+            </blockquote>
+            <ul class="collection">
+                <li class="collection-item">Software Test Engineer with 2 years of Experience in QA.</li>
+                <li class="collection-item">Extensive experience in Manual Testing (UAT/ Functional/ Integration/ Regression/ Adhoc/ Smoke/ Sanity/Web based), Quality Centre, JIRA, Mongo DB, Putty, SQL, Asana, Jenkins.</li>
+                <li class="collection-item">Hands on Experience in Mobile Application, Database Testing & API Testing.</li>
+                <li class="collection-item">Experienced in AGILE process and methodologies.</li>
+                <li class="collection-item">Worked on 7 Minor Project and 2 Major Project.</li>
+                <li class="collection-item">Strong in preparing Test data, creating the test cases and executing the same.</li>
+                <li class="collection-item">Analyzing the Test Reports and Preparing Test Summary Report.</li>
+                <li class="collection-item">Involved in preparation of scenarios to test end to end systems and prepared test data for generation of each scenario.</li>
+                <li class="collection-item">Experience in Product and Service Testing.</li>
+                <li class="collection-item">Experienced in Software Development Life Cycle (SDLC), Software Test Life Cycle (STLC) and Defect Life Cycle.</li>
+                <li class="collection-item">Experienced in understanding business and testing requirements</li>
+                <li class="collection-item">Involved in Test Case Review meetings, Scrum discussions and Retrospective Meetings.</li>
+                <li class="collection-item">Expertise in tracking Bug reports using Bug Tracking Tool- Mantis Bug-tracker and JIRA.</li>
+                <li class="collection-item">Good Knowledge in writing RELEASE SUMMARY.</li>
+                <li class="collection-item">Database (MySQL, Mongo DB) and User Activity (Kibana, Intercom) for validation.</li>
+                <li class="collection-item">Taking Pre-data and Testing of Production Issues (Zendesk Tickets) using Zendesk.</li>
+                <li class="collection-item">Solving user's request by creating MySQL and Mongo Patches.</li>
+                <li class="collection-item">Expertise in preparing Sign off Inputs, Bug Status report.</li>
+                <li class="collection-item">Experience in Client/Server Application, Web Application, Android Mobile Application Testing.</li>
+                <li class="collection-item">Strong skill in Backend Testing using SQL queries and experience in working on database servers such as MS SQL Server and Oracle.</li>
+                <li class="collection-item">Experience in Test plan Preparation, Traceability Matrix, Test Case design and execution, QA Estimation, Test Reports and Defect Reporting.</li>
+                <li class="collection-item">Knowledge in domains like Real Estate, Portfolio, E-learning, Healthcare & Analytics.</li>
+                <li class="collection-item">Ability to work along with the team and as well as independently.</li>
+                <li class="collection-item">Involved in deploying the build in QA server through Jenkins.</li>
+                <li class="collection-item">Taking LOGS using tool like Putty, Git Bash.</li>
+                <li class="collection-item">Performed data integrity testing by executing SQL statements and manually verifying the contents.</li>
+                <li class="collection-item">Preparing for ISTQB Certification.</li>
+            </ul>
+        </div>
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-tasks"></i> &nbsp;&nbsp;PROFESSIONAL EXPOSURE - <em>Project 1</em>
+            </blockquote>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Truweight</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Client</td>
+                        <td>Truweight</td>
+                    </tr>
+                    <tr>
+                        <td>Role</td>
+                        <td>QA Engineer</td>
+                    </tr>
+                    <tr>
+                        <td>Organisation</td>
+                        <td>Truweight Wellness Private Limited</td>
+                    </tr>
+                    <tr>
+                        <td>Domain</td>
+                        <td>Healthcare</td>
+                    </tr>
+                    <tr>
+                        <td>Team Size</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Tools</td>
+                        <td>Git Lab, JIRA, PG Admin</td>
+                    </tr>
+                    <tr>
+                        <td>Skills Used</td>
+                        <td>Manual Testing, Database Testing, Mobile App Testing, Cross Browsers Testing &amp; Web App Testing</td>
+                    </tr>
+                    <tr>
+                        <td>Links</td>
+                        <td><a href="app2.truweight.in">App2 Truweight,</a>&nbsp;&nbsp;<a href="https://www.truweight.in">Truweight.in</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <p>
+                    <h5>Project Overview</h5></p>
+                <p>Truweight is a weight management company that gives its clients nutrition counselling and a wide range of effective super foods, which helps individuals to attain optimal weight loss. The entire focus is on healthy eating and not on machines, belts or weight loss pills. Truweight intends to provide sustainable and healthy weight loss solution (based on nutrition) to millions of Indians.</p>
+            </div>
+            <div>
+                <ul class="collection with-header">
+                    <li class="collection-header">
+                        <h6><b>Contribution/Responsibilities</b></h6>
+                    </li>
+                    <li class="collection-item">Involved in Stand-up meeting.</li>
+                    <li class="collection-item">Understanding Business Requirements via client and preparing Test Plans and Estimation for use case.</li>
+                    <li class="collection-item">Preparing Test Data, Test Scenarios and Test Cases for the release and the regression cycle.</li>
+                    <li class="collection-item">Involved in the Test Case Review meeting with the Product Owner and other team members.</li>
+                    <li class="collection-item">Prepared traceability matrix, Non-Functional Requirement and bug status report</li>
+                    <li class="collection-item">Preparation of Test Summary Report and Sign off report at the end of testing.</li>
+                    <li class="collection-item">Worked closely with Development team to resolve the defects and ensure high quality and timely releases.</li>
+                    <li class="collection-item">Defect Tracking in JIRA and ensuring that their status is as per the process.</li>
+                    <li class="collection-item">Performed Functional testing, UI Testing, Retesting, Smoke, Sanity and Regression Testing</li>
+                    <li class="collection-item">Involved in deploying the build in QA server through Jenkins [Manually/Automated].</li>
+                </ul>
+            </div>
+        </div>
+        <!--Pro 2-->
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-tasks"></i> &nbsp;&nbsp;PROFESSIONAL EXPOSURE - <em>Project 2</em>
+            </blockquote>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Edulastic</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Client</td>
+                        <td>K9 - USA</td>
+                    </tr>
+                    <tr>
+                        <td>Role</td>
+                        <td>Associate Software Engineer - QA</td>
+                    </tr>
+                    <tr>
+                        <td>Organisation</td>
+                        <td>Snapwiz Edutec India Private Limited</td>
+                    </tr>
+                    <tr>
+                        <td>Domain</td>
+                        <td>E-Learning</td>
+                    </tr>
+                    <tr>
+                        <td>Team Size</td>
+                        <td>26</td>
+                    </tr>
+                    <tr>
+                        <td>Tools</td>
+                        <td>MANTIS BUGTRACKER, QUALITY CENTER, JIRA, MySQL, MONGO DB, ZENDESK, ASANA, KIBANA, JENKINS, INTERCOM, PUTTY, GIT BASH</td>
+                    </tr>
+                    <tr>
+                        <td>Skills Used</td>
+                        <td>
+                            Manual Testing , Database Testing , Mobile App Testing , Web App Testing , My SQL , Mongo DB
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Links</td>
+                        <td><a href="https://edulastic.com/">Edulastic,</a>&nbsp;&nbsp;<a href="app.edulastic.com">Edulastic App</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <p>
+                    <h5>Project Overview</h5></p>
+                <p>Edulastic is a web-based formative assessment platform that helps teachers prepare and deliver effective Common Core curricula by simultaneously improving the assessment creation, assignment, and grading processes. Provides meaningful homework solutions and daily assessments.</p>
+            </div>
+            <div>
+                <ul class="collection with-header">
+                    <li class="collection-header">
+                        <h6><b>Contribution/Responsibilities</b></h6>
+                    </li>
+                    <li class="collection-item">Analyzing requirements and preparing Test Plans and Estimation for use case.</li>
+                    <li class="collection-item">Preparing Test Scenarios, Test Cases and Test Data for the release and the regression cycle.</li>
+                    <li class="collection-item">Involved in the Test Case Review meeting with the Product Owner and other team members.</li>
+                    <li class="collection-item">Backend testing using SQL.</li>
+                    <li class="collection-item">Involved in Scrum and Sprint Plan meeting.</li>
+                    <li class="collection-item">Defect Tracking in Mantis Bug-tracker/JIRA and ensuring that their status is as per the process.</li>
+                    <li class="collection-item">Involved in deploying the build in QA server through Jenkins.</li>
+                    <li class="collection-item">Performed Functional testing, UI Testing, Retesting, Smoke, Sanity and Regression Testing</li>
+                    <li class="collection-item">Taking LOGS using tool like Putty, Git Bash.</li>
+                    <li class="collection-item">Worked in Production Support and is involved in testing Data Patch and Code Patch.</li>
+                </ul>
+            </div>
+        </div>
+        <!--Pro 2-->
+        <div class="row">
+            <blockquote>
+                <i class="fas fa-user-circle"></i> &nbsp;&nbsp;PERSONAL DETAILS
+            </blockquote>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Fathers Name</td>
+                        <td>Anil Kumar</td>
+                    </tr>
+                    <tr>
+                        <td>Mother’s Name</td>
+                        <td>Rita Kumari</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td>16/09/1994</td>
+                    </tr>
+                    <tr>
+                        <td>Languages</td>
+                        <td>English, Hindi</td>
+                    </tr>
+                    <tr>
+                        <td>Current Location</td>
+                        <td>Bangalore, India</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
